@@ -1,0 +1,13 @@
+.App{
+  display: flex;
+  justify-content: center;
+}
+.peopleBlock {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.peopleBlock:nth-child(odd) {
+  background-color: lightgray;
+  outline: 1px solid black;
+}
